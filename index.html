@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/@geist/font/mono.css">
+  <link rel="stylesheet" href="https://unpkg.com/@geist/font/sans.css">
+
+</head>
+<body>
+  <div class="container">
+    <header class="intro">
+      <h1 id="hacker-text">Hey, I'm Ritesh Hiremath</h1>
+      <p>B.Tech CSE student at Presidency University, passionate about ML, Computer Vision, Frontend, and Arduino projects.</p>
+      <div class="social-icons">
+        <a class="tags" href="https://github.com/dumbesthuman">Github</a>
+        <a class="tags" href="https://www.linkedin.com/in/ritesh-hiremath-203309291/">LinkedIn</a>
+        <a class="tags" href="https://www.instagram.com/goodfornothingritesh/">Instagram</a>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="projects">Projects</button>
+      <button class="tab" data-tab="experience">Experience</button>
+      <button class="tab" data-tab="tools">Tools</button>
+    </nav>
+
+    <div id="tab-content">
+      <section id="projects" class="tab-section active">
+        <div class="project">
+          <div class="title-row">
+            <h2>Smart Attendance System</h2>
+            <div class="links">
+              <a href="#">GitHub</a>
+              <a href="#">View</a>
+            </div>
+          </div>
+          <p>Automated attendance using YOLO and facial recognition for classroom settings.</p>
+          <div class="tags">Python / YOLO / OpenCV / Flask</div>
+        </div>
+
+        <div class="project">
+          <div class="title-row">
+            <h2>Personal Portfolio</h2>
+            <div class="links">
+              <a href="#">GitHub</a>
+              <a href="#">View</a>
+            </div>
+          </div>
+          <p>A minimal portfolio to showcase my projects, skills, and academic background.</p>
+          <div class="tags">HTML / CSS / JavaScript</div>
+        </div>
+
+        <div class="project">
+          <div class="title-row">
+            <h2>Arduino Smart Home</h2>
+            <div class="links">
+              <a href="#">GitHub</a>
+              <a href="#">View</a>
+            </div>
+          </div>
+          <p>An Arduino-based smart home controller with sensors and voice activation.</p>
+          <div class="tags">Arduino / C++ / IoT</div>
+        </div>
+      </section>
+
+      <section id="experience" class="tab-section">
+        <div class="project">
+          <div class="title-row">
+            <h2>Intern, Pinnacle Labs</h2>
+            <span>Jun 2025 – Jul 2025</span>
+          </div>
+          <p>Built web apps like a portfolio, weather dashboard, e-commerce site, to-do app, and restaurant website with a focus on responsive design.</p>
+          <div class="tags">Python / YOLO / React</div>
+        </div>
+
+        <div class="project">
+          <div class="title-row">
+            <h2>Mentor, Arduino Projects</h2>
+            <span>Jan 2025 – May 2025</span>
+          </div>
+          <p>Mentored 4 junior teams on Arduino hardware projects, assisting with circuits, sensors, debugging, and presentations.</p>
+          <div class="tags">Arduino / C++ / IoT </div>
+        </div>
+      </section>
+
+      <section id="tools" class="tab-section">
+        <p>VS Code, GitHub, Arduino IDE, Google Colab, Figma, Postman</p>
+      </section>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
