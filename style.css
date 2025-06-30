@@ -150,5 +150,99 @@ body {
   transform: translateY(-2px);
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 1rem;
+  }
+
+  .intro h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .intro p {
+    font-size: 0.95rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .social-icons {
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .tabs {
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .tab {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .project {
+    padding: 1rem;
+  }
+
+  .title-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .title-row h2 {
+    font-size: 1.1rem;
+  }
+
+  .project p {
+    font-size: 0.9rem;
+  }
+
+  .tags {
+    font-size: 0.8rem;
+  }
+}
+
+.tools-section {
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.tool-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.tool i,
+.tool img {
+  font-size: 2.5rem;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 0.5rem;
+  transition: transform 0.3s ease;
+}
+
+.tool img {
+  object-fit: contain;
+}
+
+.tool:hover i,
+.tool:hover img {
+  transform: scale(1.2);
+}
+
 
 
