@@ -33,11 +33,26 @@ body {
   letter-spacing: 2px;
 }
 
+/* ========== Social Icons ========== */
+.social-icons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: flex-end; /* <<< aligned right */
+}
+
 .social-icons a {
-  margin-right: 1rem;
+  font-size: 0.95rem;
+  color: #888;
   text-decoration: none;
-  color: #aaa;
-  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+  transform: translateY(-2px);
 }
 
 /* ========== Tabs ========== */
@@ -130,26 +145,7 @@ body {
   color: #fff;
 }
 
-.social-icons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1.5rem;
-}
-
-.social-icons a {
-  font-size: 0.95rem;
-  color: #888;
-  text-decoration: none;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  transition: color 0.3s, transform 0.3s;
-}
-
-.social-icons a:hover {
-  color: #fff;
-  transform: translateY(-2px);
-}
-
+/* ========== Responsive ========== */
 @media (max-width: 600px) {
   .container {
     padding: 1rem;
@@ -167,7 +163,7 @@ body {
   }
 
   .social-icons {
-    justify-content: center;
+    justify-content: center; /* Center on mobile */
     gap: 1rem;
     flex-wrap: wrap;
   }
@@ -206,6 +202,7 @@ body {
   }
 }
 
+/* ========== Tools Section ========== */
 .tools-section {
   padding: 2rem 0;
   text-align: center;
@@ -243,6 +240,3 @@ body {
 .tool:hover img {
   transform: scale(1.2);
 }
-
-
-
