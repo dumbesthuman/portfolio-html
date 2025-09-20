@@ -4,7 +4,7 @@ body {
   padding: 0;
   background-color: #0a0a0a;
   color: #eaeaea;
-  font-family: 'Geist Sans', sans-serif;
+  font-family: "Geist Sans", sans-serif;
   font-weight: 400;
 }
 
@@ -28,7 +28,7 @@ body {
   color: #b0b0b0;
 }
 
-#hacker-text {
+#header-text {
   font-size: 2rem;
   letter-spacing: 2px;
 }
@@ -100,7 +100,7 @@ body {
 }
 
 .project:hover {
-  transform: translateX(10px);
+  transform: translateX(30px);
 }
 
 .project h2 {
@@ -119,7 +119,7 @@ body {
 
 .tags {
   font-size: 0.85rem;
-  font-family: 'Geist Mono', monospace;
+  font-family: "Geist Mono", monospace;
   font-weight: 400;
   color: #888;
   letter-spacing: 0.2px;
@@ -200,43 +200,4 @@ body {
   .tags {
     font-size: 0.8rem;
   }
-}
-
-/* ========== Tools Section ========== */
-.tools-section {
-  padding: 2rem 0;
-  text-align: center;
-}
-
-.tool-icons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2rem;
-  justify-content: center;
-}
-
-.tool {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: 0.9rem;
-  color: #ccc;
-}
-
-.tool i,
-.tool img {
-  font-size: 2.5rem;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 0.5rem;
-  transition: transform 0.3s ease;
-}
-
-.tool img {
-  object-fit: contain;
-}
-
-.tool:hover i,
-.tool:hover img {
-  transform: scale(1.2);
 }
